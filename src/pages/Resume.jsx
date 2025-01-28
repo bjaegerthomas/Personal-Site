@@ -1,5 +1,6 @@
 export default function AboutPage() {
     return (
+      <>
       <div className="container pt-4">
         <h2>
           Front End Proficiencies
@@ -22,5 +23,11 @@ export default function AboutPage() {
           <li>MySQL</li>
         </ul>
       </div>
+      <div>
+        <a href="/path/to/your/resume.pdf" download>
+          Download My Resume
+        </a>
+      </div>
+      </>
     );
   }
