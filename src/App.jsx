@@ -6,12 +6,11 @@ function App() {
   // The Outlet component will conditionally swap between the different pages according to the URL
   return (
     <>
-
-      <header className="bg-dark text-light text-left p-3">
+      <header className="bg-white text-dark blue d-flex justify-content-between align-items-center p-3">
         <h1>Ben Jaeger-Thomas</h1>
-      <Nav />
+        <Nav />
       </header>
-      <main className="mx-3">
+      <main className="mx-3" style={{ background: 'linear-gradient(white, teal)' }}>
         <Outlet />
       </main>
       <footer>
@@ -27,7 +26,6 @@ function App() {
           </a>
         </div>
       </footer>
-
     </>
   );
 }
