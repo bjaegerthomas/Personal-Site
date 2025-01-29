@@ -17,6 +17,7 @@ export default function Portfolio() {
                 <img src="src/images/github.png" alt="github" className="icon"/>
             </a>
         </div>
+        <div></div>
         <div>
             <p>
                 Click on above icons for a deployed version on Render<br />

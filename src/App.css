@@ -83,10 +83,11 @@ footer {
 .icon {
   width: 80px;
   height: 80px;
+  filter: grayscale(100%)
 }
 
 .icon:hover {
-  fill: darkcyan;
+  opacity: 0.5;
 }
 
 .download {
@@ -94,4 +95,11 @@ footer {
   border: 4px;
   border-radius: 8px;
   border-style: blur(2px);
+}
+
+.weather {
+  width: 50%;
+  border-radius: 8px;
+  float: left;
+  margin-right: 1em;
 }
