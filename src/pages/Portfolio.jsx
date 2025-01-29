@@ -1,3 +1,4 @@
-import React, { useState } from 'react';
+const Portfolio = () => { 
+}
 
 export default Portfolio;
