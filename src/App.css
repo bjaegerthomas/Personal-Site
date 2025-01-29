@@ -56,6 +56,30 @@ body, html {
   padding: 2em;
 }
 
+label {
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  gap: 1em; /* Adjust the gap value to control vertical spacing */
+}
+
+input {
+  font-size: 1.2em;
+  padding: 0.5em;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  width: 30%;
+}
+
+#message {
+  font-size: 1.2em;
+  padding: 0.5em;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  width: 40%;
+  height: 100px;
+}
+
 /* Footer Items */
 
 footer {
