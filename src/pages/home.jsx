@@ -1,4 +1,4 @@
-export default function About() {
+export default function Home() {
     return (
         <>
         <div className="p-3">
@@ -15,4 +15,3 @@ export default function About() {
         </>
     );
   }
-  
