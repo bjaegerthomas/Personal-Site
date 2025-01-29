@@ -6,9 +6,10 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 
 import App from './App';
 import Error from './pages/Error';
-import Home from './pages/portfolio';
+import Portfolio from './pages/portfolio';
 import Contact from './pages/contact';
 import About from './pages/about';
+import Resume from './pages/resume';
 
 // Define the accessible routes, and which components respond to which URL
 const router = createBrowserRouter([
@@ -28,6 +29,10 @@ const router = createBrowserRouter([
       {
         path: '/contact',
         element: <Contact />,
+      },
+      {
+        path: '/resume',
+        element: <Resume />,
       },
     ],
   },

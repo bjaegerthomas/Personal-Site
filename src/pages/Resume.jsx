@@ -1,4 +1,4 @@
-export default function AboutPage() {
+export default function Resume() {
     return (
       <>
       <div className="container pt-4">
@@ -30,4 +30,4 @@ export default function AboutPage() {
       </div>
       </>
     );
-  }
+  };
