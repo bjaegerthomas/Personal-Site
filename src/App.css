@@ -10,6 +10,8 @@
   box-sizing: border-box;
 }
 
+/* Header Items*/
+
 header {
   display: flex;
   justify-content: space-between;
@@ -23,6 +25,8 @@ header h1 {
   padding: 0.5em 1em;
   border-radius: 8px;
 }
+
+/* Navigation Items */
 
 .nav-item:hover {
   filter: drop-shadow(0 0 2em #acaff0aa);
@@ -39,31 +43,20 @@ header h1 {
   justify-content: space-between;
 }
 
-.card {
-  padding: 2em;
-}
+/* Main Content */
 
-.headshot {
-  width: 25%;
-  border-radius: 8px;
-  float: left;
-  margin-right: 1em;
-}
-
-@media (max-width: 768px) {
-  #root {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-}
 body, html {
   margin: 0;
   padding: 0;
   width: 100%;
   height: 100%;
 }
+
+.card {
+  padding: 2em;
+}
+
+/* Footer Items */
 
 footer {
   height: 90px; /* Adjust to your footer height */
@@ -79,6 +72,8 @@ footer {
   justify-content: center;
   gap: 1em;
 }
+
+/* Icons and Images*/
 
 .icon {
   width: 80px;
@@ -97,9 +92,26 @@ footer {
   border-style: blur(2px);
 }
 
+.headshot {
+  width: 25%;
+  border-radius: 8px;
+  float: left;
+  margin-right: 1em;
+}
+
 .weather {
   width: 50%;
   border-radius: 8px;
   float: left;
   margin-right: 1em;
+}
+
+/* Responsive Design */
+
+@media (max-width: 768px) {
+  #root {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
