@@ -85,6 +85,10 @@ footer {
   height: 80px;
 }
 
+.icon:hover {
+  fill: darkcyan;
+}
+
 .download {
   background-color: white;
   border: 4px;
