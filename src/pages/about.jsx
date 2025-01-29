@@ -2,7 +2,7 @@ export default function AboutPage() {
     return (
         <>
         <div className="p-3">
-                <h2 style={{ fontSize: '2.25em' }}>
+                <h2 style={{ fontSize: '2.25em', textDecoration: 'underline' }}>
                     About Me
                 </h2>
                 <img src="src/images/headshot.jpg" alt="headshot" className="headshot"/>

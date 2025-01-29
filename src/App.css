@@ -16,6 +16,13 @@ header {
   align-items: center;
   margin-bottom: 2rem;
 }
+header h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+  background-color: white;
+  padding: 0.5em 1em;
+  border-radius: 8px;
+}
 
 .nav-item:hover {
   filter: drop-shadow(0 0 2em #acaff0aa);
