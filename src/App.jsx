@@ -14,7 +14,7 @@ function App() {
       <Outlet />
     </main>
     <footer>
-      <div className="footer-icons">
+      <section className="footer-icons">
         <a href="https://github.com/bjaegerthomas" target="_blank" rel="noopener noreferrer">
           <img src="src/images/github.png" alt="GitHub" className="icon" />
         </a>
@@ -24,7 +24,7 @@ function App() {
         <a href="https://www.instagram.com/jaegerthomas/" target="_blank" rel="noopener noreferrer">
           <img src="src/images/instagram.png" alt="Instagram" className="icon" />
         </a>
-      </div>
+      </section>
     </footer>
     </>
   );
