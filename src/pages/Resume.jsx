@@ -24,7 +24,7 @@ export default function Resume() {
         </ul>
       </div>
       <div>
-        <a href="/path/to/your/resume.pdf" download>
+        <a href="./images/resume.pdf" download>
           Download My Resume
         </a>
       </div>
