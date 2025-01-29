@@ -6,6 +6,8 @@
   text-align: center;
   background: linear-gradient(to bottom, white, teal);
   width: 100%;
+  min-height: calc(100vh - 100px); /* Adjust 100px to the height of your footer */
+  box-sizing: border-box;
 }
 
 header {
@@ -59,10 +61,6 @@ header {
     align-items: center;
   }
 
-  .card {
-    width: 100%;
-    margin-bottom: 1rem;
-  }
 }
 body, html {
   margin: 0;
@@ -71,17 +69,11 @@ body, html {
   height: 100%;
 }
 
-#root {
-  min-height: calc(100vh - 100px); /* Adjust 100px to the height of your footer */
-  box-sizing: border-box;
-}
-
 footer {
   height: 100px; /* Adjust to your footer height */
-  background-color: teal;
+  background-color: white;
   text-align: center;
-  padding: 1rem;
-  position: relative;
+  position: absolute;
   bottom: 0;
   width: 100%;
 }
