@@ -72,7 +72,6 @@ export default function Portfolio() {
                 Or to see the code for the app on Github
             </p>
         </div>
-        <br />
         <div className="p-3">
                 <h2 style={{ fontSize: '2.25em', textDecoration: 'underline' }}>
                     Coming Soon
@@ -96,7 +95,6 @@ export default function Portfolio() {
                 Or to see the code for the app on Github
             </p>
         </div>
-        <br />
         <div className="p-3">
                 <h2 style={{ fontSize: '2.25em', textDecoration: 'underline' }}>
                     Coming Soon
@@ -120,7 +118,6 @@ export default function Portfolio() {
                 Or to see the code for the app on Github
             </p>
         </div>
-        <br />
         <div className="p-3">
                 <h2 style={{ fontSize: '2.25em', textDecoration: 'underline' }}>
                     Coming Soon
@@ -143,9 +140,7 @@ export default function Portfolio() {
                 Click on above icons for a deployed version on Render<br />
                 Or to see the code for the app on Github
             </p>
-        </div>
-        <br />
-        
+        </div>      
         </>
     );
   }
