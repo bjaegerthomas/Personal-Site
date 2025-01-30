@@ -31,7 +31,7 @@ export default function Portfolio() {
                 </h2>
         </div>
         <div>
-            <img src="src/images/placeholder.png" alt="place holder" className="weather"/>
+            <img src="src/images/placeholder.jpg" alt="place holder" className="placeholder"/>
         </div>
         <div id= "port-item">
             <a href="https://weather-app-xzuf.onrender.com" target="_blank" rel="noopener noreferrer">
@@ -55,7 +55,7 @@ export default function Portfolio() {
                 </h2>
         </div>
         <div>
-            <img src="src/images/placeholder.png" alt="place holder" className="weather"/>
+            <img src="src/images/placeholder.jpg" alt="place holder" className="placeholder"/>
         </div>
         <div id= "port-item">
             <a href="https://weather-app-xzuf.onrender.com" target="_blank" rel="noopener noreferrer">
@@ -78,7 +78,7 @@ export default function Portfolio() {
                 </h2>
         </div>  
         <div>
-            <img src="src/images/placeholder.png" alt="place holder" className="weather"/>
+            <img src="src/images/placeholder.jpg" alt="place holder" className="placeholder"/>
         </div>
         <div id= "port-item">
             <a href="https://weather-app-xzuf.onrender.com" target="_blank" rel="noopener noreferrer">
@@ -101,7 +101,7 @@ export default function Portfolio() {
                 </h2>
         </div>
         <div>
-            <img src="src/images/placeholder.png" alt="place holder" className="weather"/>
+            <img src="src/images/placeholder.jpg" alt="place holder" className="placeholder"/>
         </div>
         <div id= "port-item">
             <a href="https://weather-app-xzuf.onrender.com" target="_blank" rel="noopener noreferrer">
@@ -124,7 +124,7 @@ export default function Portfolio() {
                 </h2>
         </div>
         <div>
-            <img src="src/images/placeholder.png" alt="place holder" className="weather"/>
+            <img src="src/images/placeholder.jpg" alt="place holder" className="placeholder"/>
         </div>
         <div id= "port-item">
             <a href="https://weather-app-xzuf.onrender.com" target="_blank" rel="noopener noreferrer">
@@ -135,12 +135,12 @@ export default function Portfolio() {
             </a>
         </div>
             <br />
-        <div id= "port-item">
+        <div id= "bottom">
             <p>
                 Click on above icons for a deployed version on Render<br />
                 Or to see the code for the app on Github
             </p>
-        </div>      
+        </div >      
         </>
     );
   }

@@ -138,6 +138,13 @@ footer {
   margin-right: 1em;
 }
 
+.placeholder {
+  width: 10%;
+  border-radius: 8px;
+  float: left;
+  margin-right: 1em;
+}
+
 #port-item {
   justify-self: end;
   margin-bottom: 50px;
@@ -145,6 +152,11 @@ footer {
 
 #app-title {
   justify-self: start;
+}
+
+#bottom {
+  justify-self: end;
+  margin-bottom: 80px;
 }
 
 /* Responsive Design */
