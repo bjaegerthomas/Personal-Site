@@ -6,7 +6,7 @@ function App() {
   // The Outlet component will conditionally swap between the different pages according to the URL
   return (
     <>
-    <header className="p-3">
+    <header className="p-3" id="hero-banner">
       <h1>Ben Jaeger-Thomas</h1>
       <Nav />
     </header>

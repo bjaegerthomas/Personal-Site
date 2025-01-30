@@ -23,6 +23,14 @@ header h1 {
   border-radius: 8px;
 }
 
+#hero-banner {
+  width: 100%;
+  height: 300px;
+  background-image: url('src/images/keyboard.webp');
+  background-size: cover;
+  background-position: center;
+}
+
 /* Navigation Items */
 
 .nav-item:hover {
@@ -48,7 +56,7 @@ body {
   text-align: left;
   background: linear-gradient(to bottom, var(--primary-color), var(--secondary-color));
   width: 100%;
-  min-height: 100vh;
+  min-height: 85vh;
 }
 
 /* Main Content */
