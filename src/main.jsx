@@ -5,7 +5,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css'
 
 import App from './App';
-import Error from './pages/Error';
+import Error from './pages/error';
 import Portfolio from './pages/portfolio';
 import Contact from './pages/contact';
 import About from './pages/about';
